@@ -51,3 +51,24 @@ class Matematica {
 }
 
 console.log(Matematica.soma(2, 2))
+
+// Let, const
+
+const usuario = { nome: 'Ricardo'};
+usuario.nome = "Ricardo Carvalho";
+
+console.log(usuario);
+
+function teste(x) {
+    let y = 2;
+
+    if (x > 5) {
+        let y = 4;
+
+        console.log(x, y);
+    }
+}
+
+// console.log(y)
+
+teste(10);

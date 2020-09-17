@@ -100,4 +100,22 @@ var Matematica = /*#__PURE__*/function () {
   return Matematica;
 }();
 
-console.log(Matematica.soma(2, 2));
+console.log(Matematica.soma(2, 2)); // Let, const
+
+var usuario = {
+  nome: 'Ricardo'
+};
+usuario.nome = "Ricardo Carvalho";
+console.log(usuario);
+
+function teste(x) {
+  var y = 2;
+
+  if (x > 5) {
+    var _y = 4;
+    console.log(x, _y);
+  }
+} // console.log(y)
+
+
+teste(10);

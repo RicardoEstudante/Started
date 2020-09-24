@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "install": "^0.13.0",
     "mongoose": "^5.10.6",
+    "mongoose-paginate": "^5.0.3",
     "require-dir": "^1.2.0"
   },
   "devDependencies": {
